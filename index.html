@@ -1,0 +1,145 @@
+<!-- Formador: Jensoft Enterprise -->
+<!doctype html>
+<html es>
+<head>
+	<title>Curso de jQuery Mobile</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="jqm/jquery.mobile-1.2.0.css">
+	<script type="text/javascript" src="jqm/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="jqm/jquery.mobile-1.2.0.js"></script>
+</head>
+<body>
+	<div data-role="page" data-theme="e" id="photeles" data-transition="slide">
+		<div data-role="header" data-theme="c" data-position="fixed">
+			<h3>Turismo v2.0</h3>
+			<a href="" data-icon="arrow-l" >Contacto</a>
+			<a href="" data-icon="forward"data-iconpos="right">Acerca de</a>
+
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#photeles" class="ui-btn-active" data-icon="plus" data-transition="flip">¿Dónde alojarnos?</a></li>
+					<li><a href="#pcomidas" data-icon="star" data-transition="slide">¿Dónde ir a comer?</a></li>
+					<li><a href="#pturismo" data-icon="home" data-transition="pop">¿Dónde ir a pasear?</a></li>
+					<li><a href="#pturismo" data-icon="star" data-transition="pop">Acerca de nosotros</a></li>
+				</ul>
+			</div>
+
+		</div>
+		<div data-role="content">
+			<h3>¿Dónde alojarnos?</h3>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<h2>Continuación...</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<h3>Lista de hoteles:</h3>
+			<ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Buscar hoteles..." data-theme="d" data-dividertheme="b">
+				<li data-role="list-divider">Confort</li>
+				<li><a href="#">Selva Negra</a></li>
+				<li><a href="#">Lomas de San Thomas</a></li>
+				<li data-role="list-divider">Económicos</li>
+				<li><a href="#">Ensueño de la Campana</a></li>
+				<li><a href="#">5Comentario</a></li>
+				<li><a href="#">Los Cocos</a></li>
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="c">
+			<center>
+				<div data-role="controlgroup" data-type="horizontal">
+					<a href="" data-role="button" data-icon="ui-icon-cart">Amazon</a>
+					<a href="" data-role="button">Sitio Web</a>
+					<a href="" data-role="button">Facebook</a>
+					<a href="" data-role="button">Twitter</a>
+				</div>
+
+			</center>
+		</div>
+	</div>
+
+	<!-- Página 2 -->
+	<div data-role="page" data-theme="e" id="pcomidas" data-transition="flip">
+		<div data-role="header" data-theme="c" data-position="fixed">
+			<h3>Turismo v2.0</h3>
+			<a href="">Contacto</a>
+			<a href="">Acerca de</a>
+
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#photeles" data-icon="plus" data-transition="Slidedown">¿Dónde alojarnos?</a></li>
+					<li><a href="#pcomidas" data-icon="delete" class="ui-btn-active" data-transition="Slideup">¿Dónde ir a comer?</a></li>
+					<li><a href="#pturismo" data-icon="update" data-transition="pop">¿Dónde ir a pasear?</a></li>
+				</ul>
+			</div>
+
+		</div>
+		<div data-role="content">
+			<h3>¿Dónde ir a comer?</h3>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<h2>Continuación...</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>		
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="c">
+			<center><address>http://www.jensoft.edu.ni</address></center>
+		</div>
+	</div>
+	<!-- Fin de la página 2 -->
+
+	<!-- Página 3 -->
+	<div data-role="page" data-theme="e" id="pturismo">
+		<div data-role="header" data-theme="c" data-position="fixed">
+			<h3>Turismo v2.0</h3>
+			<a href="">Contacto</a>
+			<a href="">Acerca de</a>
+
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#photeles" data-icon="plus" data-transition="flip">¿Dónde alojarnos?</a></li>
+					<li><a href="#pcomidas" data-icon="delete" data-transition="fade">¿Dónde ir a comer?</a></li>
+					<li><a href="#pturismo" data-icon="update" class="ui-btn-active" data-transition="pop">¿Dónde ir a pasear?</a></li>
+				</ul>
+			</div>
+
+		</div>
+		<div data-role="content">
+			<h3>¿Dónde ir a pasear?</h3>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<h2>Continuación...</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>		
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="c">
+			<center><address>http://www.jensoft.edu.ni</address></center>
+		</div>
+	</div>
+	<!-- Fin de la página 3 -->
+
+</body>
+</html>
