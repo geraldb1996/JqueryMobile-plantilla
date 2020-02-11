@@ -1,3 +1,44 @@
 .centrado{
     text-align: center;
 }
+
+.webrender{
+    background-image: url("resort.jpg");
+    background-size: cover;
+}
+
+.webrender:before {
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.webrender h1 {
+	font-size: 60px;
+	color: #fff;
+	position: relative
+}
+
+.webrender h3{
+    color: white;
+    position: relative;
+    text-decoration: none;
+}
+
+.webrender p{
+    color:  #ffffcc;
+    position: relative;
+    text-align: center;
+}
+
+li{
+    background-color: white;
+}
+
+p{
+    color: white;
+}
