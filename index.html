@@ -1,8 +1,9 @@
 <!-- Formador: Jensoft Enterprise -->
+<!-- MAINPAGE -->
 <!doctype html>
 <html es>
 <head>
-	<title>Jquery Mobile</title>
+	<title>JQueryMobile-Plantilla</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="stylesheet" type="text/css" href="jqm/jquery.mobile-1.2.0.css">
@@ -19,10 +20,10 @@
 
 			<div data-role="navbar">
 				<ul>
-					<li><a href="#photeles" class="ui-btn-active" data-icon="plus" data-transition="flip">Hoteles</a></li>
-					<li><a href="#pcomidas" data-icon="star" data-transition="slide">Restaurantes</a></li>
-					<li><a href="#pturismo" data-icon="home" data-transition="pop">Puntos turísticos</a></li>
-					<li><a href="#pturismo" data-icon="star" data-transition="pop">Paquetes turísticos</a></li>
+					<li><a href="#photeles" class="ui-btn-active" data-icon="fade" data-transition="flip">Hoteles</a></li>
+					<li><a href="#pcomidas" data-icon="star" data-transition="fade">Restaurantes</a></li>
+					<li><a href="#pturismo" data-icon="home" data-transition="fade">Puntos turísticos</a></li>
+					<li><a href="#ppaquetes" data-icon="star" data-transition="fade">Paquetes turísticos</a></li>
 				</ul>
 			</div>
 
@@ -45,12 +46,12 @@
 			<h3>Lista de hoteles:</h3>
 			<ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Buscar hoteles..." data-theme="d" data-dividertheme="b">
 				<li data-role="list-divider">Confort</li>
-				<li><a href="#">Selva Negra</a></li>
-				<li><a href="#">Lomas de San Thomas</a></li>
+				<li><a href="#">The Beach House Nicaragua</a></li>
+				<li><a href="#">HC Liri Hotel</a></li>
 				<li data-role="list-divider">Económicos</li>
-				<li><a href="#">Ensueño de la Campana</a></li>
-				<li><a href="#">5Comentario</a></li>
-				<li><a href="#">Los Cocos</a></li>
+				<li><a href="#">Buena Onda Backpackers</a></li>
+				<li><a href="#">Costa Dulce Hotel and Retreat Centre</a></li>
+				<li><a href="#">Arte-Sano Hotel Cafe</a></li>
 			</ul>
 		</div>
 		<div data-role="footer" data-position="fixed" data-theme="c">
@@ -65,8 +66,9 @@
 			</center>
 		</div>
 	</div>
+	<!-- FIN DEL MAIN :3 -->
 
-	<!-- Página 2 -->
+	<!-- Página 2 (RESTAURANTES)-->
 	<div data-role="page" data-theme="e" id="pcomidas" data-transition="flip">
 		<div data-role="header" data-theme="c" data-position="fixed">
 			<h2>NiCat-Tours</h2>
@@ -75,9 +77,10 @@
 
 			<div data-role="navbar">
 				<ul>
-					<li><a href="#photeles" data-icon="plus" data-transition="Slidedown">¿Dónde alojarnos?</a></li>
-					<li><a href="#pcomidas" data-icon="delete" class="ui-btn-active" data-transition="Slideup">¿Dónde ir a comer?</a></li>
-					<li><a href="#pturismo" data-icon="update" data-transition="pop">¿Dónde ir a pasear?</a></li>
+					<li><a href="#photeles" class="ui-btn-active" data-icon="fade" data-transition="flip">Hoteles</a></li>
+					<li><a href="#pcomidas" data-icon="star" data-transition="fade">Restaurantes</a></li>
+					<li><a href="#pturismo" data-icon="home" data-transition="fade">Puntos turísticos</a></li>
+					<li><a href="#ppaquetes" data-icon="star" data-transition="fade">Paquetes turísticos</a></li>
 				</ul>
 			</div>
 
@@ -104,7 +107,7 @@
 	</div>
 	<!-- Fin de la página 2 -->
 
-	<!-- Página 3 -->
+	<!-- Página 3 (PUNTOS TURÍSTICOS) -->
 	<div data-role="page" data-theme="e" id="pturismo">
 		<div data-role="header" data-theme="c" data-position="fixed">
 			<h2>NiCat-Tours</h2>
@@ -113,9 +116,10 @@
 
 			<div data-role="navbar">
 				<ul>
-					<li><a href="#photeles" data-icon="plus" data-transition="flip">¿Dónde alojarnos?</a></li>
-					<li><a href="#pcomidas" data-icon="delete" data-transition="fade">¿Dónde ir a comer?</a></li>
-					<li><a href="#pturismo" data-icon="update" class="ui-btn-active" data-transition="pop">¿Dónde ir a pasear?</a></li>
+					<li><a href="#photeles" class="ui-btn-active" data-icon="fade" data-transition="flip">Hoteles</a></li>
+					<li><a href="#pcomidas" data-icon="star" data-transition="fade">Restaurantes</a></li>
+					<li><a href="#pturismo" data-icon="home" data-transition="fade">Puntos turísticos</a></li>
+					<li><a href="#ppaquetes" data-icon="star" data-transition="fade">Paquetes turísticos</a></li>
 				</ul>
 			</div>
 
@@ -141,6 +145,45 @@
 		</div>
 	</div>
 	<!-- Fin de la página 3 -->
+
+		<!-- Página 4 (PAQUETES TURÍSTICOS) -->
+		<div data-role="page" data-theme="e" id="ppaquetes">
+			<div data-role="header" data-theme="c" data-position="fixed">
+				<h2>NiCat-Tours</h2>
+				<a href="">Contacto</a>
+				<a href="">Acerca de</a>
+	
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#photeles" class="ui-btn-active" data-icon="fade" data-transition="flip">Hoteles</a></li>
+						<li><a href="#pcomidas" data-icon="star" data-transition="fade">Restaurantes</a></li>
+						<li><a href="#pturismo" data-icon="home" data-transition="fade">Puntos turísticos</a></li>
+						<li><a href="#ppaquetes" data-icon="star" data-transition="fade">Paquetes turísticos</a></li>
+					</ul>
+				</div>
+	
+			</div>
+			<div data-role="content">
+				<h1>Lugares interesantes</h1>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<h2>Continuación...</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>		
+			</div>
+			<div data-role="footer" data-position="fixed" data-theme="c">
+				<center><address>http://www.jensoft.edu.ni</address></center>
+			</div>
+		</div>
+		<!-- Fin de la página 4 -->
 
 </body>
 </html>
