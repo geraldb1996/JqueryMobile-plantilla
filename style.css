@@ -44,3 +44,8 @@ li{
 p{
     color: white;
 }
+
+.imagen{
+    text-align: center;
+    position: relative;
+}
