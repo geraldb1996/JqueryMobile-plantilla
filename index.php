@@ -1,6 +1,7 @@
 <?php
 	include("conexion.php");
 	$peticion = mysql_query($sql,$conexion);
+	$fila = mysql_fetch_array($peticion);
 ?>
 
 <!-- MAINPAGE -->
@@ -293,6 +294,22 @@
 					</div>
 					<div data-role="content">
 						<h1 class="centrado">Restaurantes</h1>
+					
+
+		<ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Buscar Restaurante..." data-theme="d" data-dividertheme="b">
+		<?php
+			$sql = "SELECT * FROM departamento";
+			$peticion = mysql_query($sql,$conexion);
+							
+			while ($fila = mysql_fetch_array($peticion)){
+				echo'
+				<li>'.utf8_encode($fila["nombre"]).'</li>
+				';
+			}
+		?>
+		</ul>
+
+
 					</div>
 			
 				</div>
