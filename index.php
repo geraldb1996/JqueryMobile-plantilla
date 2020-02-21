@@ -1,4 +1,8 @@
-<!-- Formador: Jensoft Enterprise -->
+<?php
+	include("conexion.php");
+	$peticion = mysql_query($sql,$conexion);
+?>
+
 <!-- MAINPAGE -->
 <!doctype html>
 <html es>
