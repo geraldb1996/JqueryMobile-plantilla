@@ -298,12 +298,17 @@
 
 		<ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Buscar Restaurante..." data-theme="d" data-dividertheme="b">
 		<?php
-			$sql = "SELECT * FROM departamento";
+			$sql = "SELECT * FROM sitio WHERE (fk_depa = 'Matagalpa') AND (tipo = 'Restaurante')";
 			$peticion = mysql_query($sql,$conexion);
 							
 			while ($fila = mysql_fetch_array($peticion)){
 				echo'
-				<li>'.utf8_encode($fila["nombre"]).'</li>
+				<center><li>
+				<h1><i class="fas fa-utensils"></i> '.utf8_encode($fila["nombre"]).'</h1>
+				<h3><i class="fas fa-phone-square-alt"></i> '.utf8_encode($fila["celular"]).'  <i class="fas fa-globe-americas"></i> '.utf8_encode($fila["web"]).'</h3>
+				<div><p><i class="fas fa-map-marker-alt"></i> '.utf8_encode($fila["ubicacion"]).'</p></div>
+				<div class="imagen"><img src="'.utf8_encode($fila["img"]).'" alt=""></div>
+				</li></center>
 				';
 			}
 		?>

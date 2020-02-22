@@ -43,4 +43,10 @@ li{
 .imagen{
     text-align: center;
     position: relative;
+    width: 255px;
+    height: 255px;
+}
+
+p{
+    color: black;
 }
